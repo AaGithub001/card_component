@@ -19,7 +19,14 @@ const contacts = [
         "https://www.dlf.pt/dfpng/middlepng/569-5693658_dummy-user-image-png-transparent-png.png",
       phone: "+977 9845678900",
       email: "carren@hotmail.com"
-    }
+    },
+    {
+      name: "Anil Kafle",
+      imgURL:
+        "https://www.dlf.pt/dfpng/middlepng/569-5693658_dummy-user-image-png-transparent-png.png",
+      phone: "+977 9849876543",
+      email: "anilkafle@hotmail.com"
+    },
   ];
 
   export default contacts
