@@ -21,7 +21,7 @@ function App() {
  
   return (
     <div>
-    {contacts.map}
+    {contacts.map(SingleContact)}
     </div>
   );
 }
