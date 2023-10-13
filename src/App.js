@@ -3,14 +3,13 @@ import Card from './components/card';
 import contacts from './data/contacts';
 
 function SingleContact(contact){
-  return (
+   return (
     <div>
       <Card
       name={contact.name}
       img = {contact.imgURL}
       tel={contact.phone}
       email={contact.email}
-
       />
     </div>
   );

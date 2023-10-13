@@ -1,25 +1,30 @@
 import React from 'react'
-import detail from '../components/detail';
+import Name from './Name'
+import Profile from './Profile'
+import Phone from './Phone'
+import Email from './Email'
 
-function Card({name, imgsrc,tel, email}) {
+const Card = ({name, img, tel, email}) => {
   return (
     <div>
-      <h1 className="heading">My Contacts</h1>
-      <div className="card">
-        <div className="top">
-          <h2 className="name">{name}</h2>
-          <img
-            className="circle-img"
-            src={imgsrc}
-            alt="avatar_img"
-          />
-        </div>
-        <div className="bottom">
-        <p className="info">{tel}</p>
-          <p className="info">{email}</p>
-        </div>
+    <h1 className="heading">My Contacts</h1>
+    <div className="card">
+      <div className="top">
+        
+        <Name 
+        a ={name}  />
+        <Profile
+        p ={img}
+        />
+      </div>
+      <div className="bottom">
+        <Phone
+        no= {tel}/>
+        <Email
+        e = {email}/>
       </div>
     </div>
+  </div>
   )
 }
 
